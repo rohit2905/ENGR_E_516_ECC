@@ -1,0 +1,16 @@
+'''
+
+author: Rohit Goud Kalakuntla
+email: rokala@iu.edu
+
+ENGR-E 516: Assignment-1
+wordcount mapper
+'''
+
+import sys
+
+for line in sys.stdin:
+    line = line.strip()
+    words = line.split()
+    for word in words:
+        print('%s\t%s' % (word, 1))
